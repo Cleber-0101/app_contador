@@ -1,16 +1,6 @@
-# fluuter_app
+</h1>fluuter_app<h1>
 
-A new Flutter project.
+</h4>Nome do aplicativo : Limited <h4> 
+Descrição : Se o número de pessoas presentes no ambiente ultrapassar o limite definido pelo usuário, o aplicativo exibirá uma tela de aviso. Essa tela mostrará uma mensagem informando que o limite foi ultrapassado e pedirá ao usuário para tomar as medidas necessárias para reduzir o número de pessoas no ambiente.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Essa é apenas uma ideia básica de como um aplicativo contador de pessoas em Flutter poderia ser desenvolvido para ajudar durante a pandemia. Claro que podem ser feitas muitas outras implementações para tornar o aplicativo mais completo e útil, mas esta seria uma boa base para começar.
