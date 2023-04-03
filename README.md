@@ -1,6 +1,6 @@
 # fluuter_app
 
-A new Flutter project.
+Aplicativo contador 
 
 ## Getting Started
 
