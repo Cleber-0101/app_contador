@@ -19,10 +19,22 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Ola mundo"),
-      ),
-      drawer: Drawer(),
-    );
+      backgroundColor: Colors.black,
+        body: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: const [
+        Text(
+          "Pode entrar",
+          style: TextStyle(
+            fontSize: 30,
+            color: Colors.white,
+            fontWeight: FontWeight.w900
+          ),
+        ),
+        Text("0" , 
+        style: TextStyle(fontSize: 100 , color: ),
+        )
+      ],
+    ));
   }
 }
