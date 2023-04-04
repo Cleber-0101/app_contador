@@ -19,22 +19,30 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+        backgroundColor: Colors.red,
         body: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
-        Text(
-          "Pode entrar",
-          style: TextStyle(
-            fontSize: 30,
-            color: Colors.white,
-            fontWeight: FontWeight.w900
-          ),
-        ),
-        Text("0" , 
-        style: TextStyle(fontSize: 100 , color: ),
-        )
-      ],
-    ));
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text(
+              "Pode entrar",
+              style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w700),
+            ),
+            const Text(
+              "0",
+              style: TextStyle(fontSize: 60, color: Colors.white),
+            ),
+            Row(
+              children: const [
+                TextButton(
+                  onPressed: null,
+                  child: Text("saiu"),
+                ),
+              ],
+            )
+          ],
+        ));
   }
 }
