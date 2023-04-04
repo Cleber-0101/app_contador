@@ -43,14 +43,27 @@ class HomePage extends StatelessWidget {
               style: TextStyle(fontSize: 60, color: Colors.white),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextButton(
                   onPressed: Decrement,
-                  child: const Text("saiu"),
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.white,
+                      fixedSize: const Size(100, 100)),
+                  child: const Text(
+                    "saiu",
+                    style: TextStyle(color: Colors.black, fontSize: 19),
+                  ),
                 ),
                 TextButton(
                   onPressed: Increment,
-                  child: const Text("Entrou"),
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.white,
+                      fixedSize: const Size(100, 100)),
+                  child: const Text(
+                    "Entrou",
+                    style: TextStyle(color: Colors.black, fontSize: 19),
+                  ),
                 ),
               ],
             )
