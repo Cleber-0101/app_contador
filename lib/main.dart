@@ -16,6 +16,14 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
+  void Decrement() {
+    print('decrement');
+  }
+
+  void Increment() {
+    print('Increment');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,10 +43,14 @@ class HomePage extends StatelessWidget {
               style: TextStyle(fontSize: 60, color: Colors.white),
             ),
             Row(
-              children: const [
+              children: [
                 TextButton(
-                  onPressed: null,
-                  child: Text("saiu"),
+                  onPressed: Decrement,
+                  child: const Text("saiu"),
+                ),
+                TextButton(
+                  onPressed: Increment,
+                  child: const Text("Entrou"),
                 ),
               ],
             )
