@@ -9,19 +9,31 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext) {
-    return const MaterialApp(home: HomePage());
+    return MaterialApp(home: HomePage());
   }
 }
 
+class HomePagee extends StatefulWidget {
+  // ignore: non_constant_identifier_names
+  const HomePagee({super.key, Key? Key});
+
+  @override
+  _HomePageeState createState() => _HomePageeState();
+}
+
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  HomePage({super.key});
+
+  int count = 0;
 
   void Decrement() {
-    print('decrement');
+    count--;
+    print(count);
   }
 
   void Increment() {
-    print('Increment');
+    count++;
+    print(count);
   }
 
   @override
@@ -41,9 +53,9 @@ class HomePage extends StatelessWidget {
             const SizedBox(
               height: 40,
             ),
-            const Text(
-              "0",
-              style: TextStyle(fontSize: 60, color: Colors.white),
+            Text(
+              count.toString(),
+              style: const TextStyle(fontSize: 60, color: Colors.white),
             ),
             const SizedBox(
               height: 40,
