@@ -51,7 +51,7 @@ class _HomePageeState extends State<HomePagee> {
             Text(
               isFull ? ' lotado' : 'Pode entrar !',
               style: const TextStyle(
-                  fontSize: 50,
+                  fontSize: 45,
                   color: Colors.white,
                   fontWeight: FontWeight.w700),
             ),
